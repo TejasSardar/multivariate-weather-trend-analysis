@@ -20,9 +20,9 @@ An end-to-end time-series analysis and forecasting project utilizing historical 
 ## Model Performance & Visuals
 * **Evaluation Metrics:** Achieved optimal \(R^2\) Score and RMSE.
 * **Forecast Comparison (Actual vs. Predicted):**
-![Weather Forecast](assets/weather_forecast.png)
+![Weather Forecast](weather_forecast.png)
 
 ## Repository Structure
 * `weather_analysis.ipynb` — Complete Jupyter Notebook covering data loading, preprocessing, feature engineering, and model evaluation.
-* `assets/` — Directory containing generated model performance visualizations (`weather_forecast.png`).
-* `data/` — Contains input parquet files (excluded from version control or stored raw locally).
+* `weather_forecast.png` — Generated model performance visualization chart.
+* `cities.csv` / `countries.csv` — Reference metadata files.
